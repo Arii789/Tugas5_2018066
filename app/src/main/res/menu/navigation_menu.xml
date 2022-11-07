@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:background="#00BCD4">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_novel"
+            android:icon="@drawable/svg"
+            android:title="Novel" />
+        <item android:id="@+id/nav_anak"
+            android:icon="@drawable/anak"
+            android:title="Anak" />
+        <item android:id="@+id/nav_edukasi"
+            android:icon="@drawable/edukasi"
+            android:title="Edukasi" />
+    </group>
+</menu>
